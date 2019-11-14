@@ -1,0 +1,143 @@
+
+.redPacket{
+    height: 3.83rem;
+    width: 6.05rem;
+    display: inline;
+    float: left;
+    background-image: url(./images/unOpen.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size:100% 100%;
+}
+.displayNone{
+    display: none;
+}
+.redPacketView{
+    position: relative;
+    top:  17%;
+}
+.redPacketText{
+    font-size: .38rem;
+    font-weight: 500;
+    color: #F9A027;
+    line-height:0.53rem;
+    font-family:PingFangSC;
+}
+.redPacketText1{
+    position: relative;
+    left: 39%;
+}
+.redPacketText2{
+    position: relative;
+    left: 25%;
+}
+.redPacketText3 {
+    position: relative;
+    left: 36%;
+}
+.rankingView{
+    /*width: calc(100% - 6.05rem);*/
+    width: 11.17rem;
+    height: 4.18rem;
+    padding: 0.13rem 0.15rem 0.22rem 1.12rem;
+    /*background-color: #40AFFE;*/
+    display: inline-block;
+    float: left;
+}
+.rankingTitle{
+    /*display: inline;*/
+    /*background-color: orange;*/
+    height: 0.6rem;
+}
+.leftView{
+    width: 5.44rem;
+    float: left;
+    /*display: inline;*/
+    height: 0.6rem;
+}
+.rightView{
+    float: left;
+    /*width: calc(100% - 5.44rem);*/
+    width: 4.46rem;
+    height: 0.6rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.rankingText{
+    font-size:.32rem;
+    font-weight:normal;
+    color:rgba(255,255,255,1);
+    line-height:0.60rem;
+
+}
+.ranking{
+    height: 2.4rem;
+    overflow-y: auto;
+}
+.testView{
+    display: none;
+    position: absolute;
+    background-color: orange;
+    height: 30%;
+    width: 30%;
+    left: 0;
+}
+.loading{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+
+}
+
+.loading-text{
+    font-size:0.28rem;
+    color: rgba(255,255,255,0.70);
+    vertical-align: middle;
+}
+.span{
+    display: inline-block;
+    height: 100%;
+    width: 0;
+    vertical-align: middle;
+    visibility: hidden;
+}
+.redPacketText4{
+    position: relative;
+    left: 34%;
+}
+.redPacketText5{
+    position: relative;
+    left: 29%;
+}
+.redPacketView2 {
+    position: relative;
+    top: 24%;
+}
+.errorImage{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-top: 0.77rem;
+}
+.errorText{
+    font-size:0.34rem;
+    font-weight:normal;
+    color:rgba(255,255,255,1);
+    line-height:0.46rem;
+    margin-top: 0.5rem;
+
+}
+.overImage{
+    width: 6.05rem;
+    height: 3.83rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
