@@ -1,1 +1,8 @@
 # WebpackLearning
+
+
+
+webpack内部分享的事例demo
+
+项目内包含webpack实际工作中的常用配置以及优化的实现，以及如何实现loader和plugin的简单演示还有如何打包library等用法，基本覆盖了webpack的实际应用场景。
+
